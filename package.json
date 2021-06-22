@@ -1,5 +1,5 @@
 {
-  "name": "birthday",
+  "name": "@gauravmahto/birthday",
   "version": "1.0.0",
   "description": "Birthday greetings",
   "main": " ",
@@ -13,12 +13,15 @@
   "keywords": [
     "Birthday"
   ],
-  "author": "Ayush Sharma",
-  "license": "WTFPL",
+  "author": "Gaurav Mahto",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gauravmahto/birthday/issues"
   },
   "homepage": "https://github.com/gauravmahto/birthday#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "http-server": "0.12.3"
   }
